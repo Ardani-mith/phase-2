@@ -15,15 +15,25 @@ CSS Framework adalah kumpulan file CSS (dan kadang JavaScript) yang siap pakai u
 2. Tailwind CSS: Pendekatan utility-first, memberikan fleksibilitas tinggi.
 
     Contoh Menggunakan Bootstrap (Sederhana):
-    1. Tambahkan Bootstrap CDN di <head> HTML Anda:
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    - Tambahkan Bootstrap CDN di <head> HTML Anda:
+    `<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>`
 
-    2. Tambahkan Bootstrap JS CDN di sebelum </body> penutup:
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>`
 
     Contoh Menggunakan Tailwind (Sederhana):
-    1. Tambahkan Tailwind CDN di sebelum </body> penutup:
+    - Tambahkan Tailwind CDN di sebelum </body> penutup:
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+    </script>
 
 ## Contoh Penggunaan
 
