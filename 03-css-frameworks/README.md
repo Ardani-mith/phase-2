@@ -23,17 +23,10 @@ CSS Framework adalah kumpulan file CSS (dan kadang JavaScript) yang siap pakai u
     Contoh Menggunakan Tailwind (Sederhana):
     - Tambahkan Tailwind CDN di sebelum </body> penutup:
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-    </script>
+    
+    - Lebih praktis dengan mendownload Talwind CLI :
+    `npm install -D tailwindcss@3`
+    `npx tailwindcss init`
 
 ## Contoh Penggunaan
 
