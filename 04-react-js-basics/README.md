@@ -4,20 +4,22 @@ React.js (sering disebut React) adalah library JavaScript untuk membangun User I
 
 ## Konsep Penting:
 
-- Component-Based: Aplikasi React dibangun dari komponen-komponen kecil yang terisolasi.
-- JSX: Sintaks ekstensi JavaScript yang memungkinkan Anda menulis HTML di dalam JavaScript.
-- Virtual DOM: React menggunakan Virtual DOM untuk efisiensi pembaruan UI.
-- Props: Cara mengirim data dari komponen induk ke komponen anak.
-- State: Data internal suatu komponen yang dapat berubah seiring waktu dan memicu pembaruan UI.
+- **Component-Based** - Aplikasi React dibangun dari komponen-komponen kecil yang terisolasi.
+- **JSX: Sintaks ekstensi** - JavaScript yang memungkinkan Anda menulis HTML di dalam JavaScript.
+- **Virtual DOM** - React menggunakan Virtual DOM untuk efisiensi pembaruan UI.
+- **Props** - Cara mengirim data dari komponen induk ke komponen anak.
+- **State** - Data internal suatu komponen yang dapat berubah seiring waktu dan memicu pembaruan UI.
 
 ## Persiapan (Instalasi):
 
 Untuk memulai dengan React, Anda perlu Node.js dan npm/yarn.
 Cara paling mudah adalah dengan create-react-app (untuk project sederhana):
 
-    // npx create-react-app my-react-app
-        cd my-react-app
-        npm start
+```html
+npx create-react-app my-react-app
+cd my-react-app
+npm start
+```
 
 ## Contoh Kode:
 
