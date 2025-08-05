@@ -18,8 +18,14 @@ Cache browser adalah area penyimpanan sementara di komputer pengguna yang menyim
 
 1. Event Listener
    - Metode untuk "mendengarkan" events pada elemen HTML
-   - Menggunakan `addEventListener()` 
-   - Contoh: `element.addEventListener('click', handler)`
+   - Menggunakan 
+   ```html
+   addEventListener()
+   ```
+   - Contoh: 
+   ```html 
+   element.addEventListener('click', handler)
+   ```
 
 2. Event Handler
    - Fungsi yang dijalankan saat event terjadi

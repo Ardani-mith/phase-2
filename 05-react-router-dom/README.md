@@ -4,11 +4,11 @@ Dalam aplikasi web satu halaman (Single Page Application/SPA) seperti yang diban
 
 ## Konsep Penting:
 
-- BrowserRouter: Komponen utama yang membungkus seluruh aplikasi dan mengelola riwayat browser.
-- Routes: Wadah untuk mendefinisikan rute-rute aplikasi.
-- Route: Mendefinisikan jalur (path) URL dan komponen yang akan dirender ketika jalur tersebut cocok.
-- Link: Komponen untuk navigasi antar rute, mirip dengan tag <a> tapi tanpa memuat ulang halaman.
-- useParams: Hook untuk mengambil parameter dari URL (misalnya /products/:id).
+- **BrowserRouter** - Komponen utama yang membungkus seluruh aplikasi dan mengelola riwayat browser.
+- **Routes** - Wadah untuk mendefinisikan rute-rute aplikasi.
+- **Route: Mendefinisikan jalur (path) URL dan komponen yang akan dirender ketika jalur tersebut cocok.
+- **Link** - Komponen untuk navigasi antar rute, mirip dengan tag <a> tapi tanpa memuat ulang halaman.
+- **useParams** - Hook untuk mengambil parameter dari URL (misalnya /products/:id).
 
 ## Instalasi React Router DOM:
 
@@ -26,11 +26,17 @@ Cara paling mudah adalah dengan create-react-app (untuk project sederhana):
 2. Tailwind CSS: Pendekatan utility-first, memberikan fleksibilitas tinggi.
 
     Contoh Menggunakan Bootstrap (Sederhana):
-    1. Tambahkan Bootstrap CDN di <head> HTML Anda:
-    `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">`
+    1. Tambahkan Bootstrap CDN di `<head>` HTML Anda:
+    
+    ```html
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    ```
 
-    2. Tambahkan Bootstrap JS CDN di sebelum </body> penutup:
+    2. Tambahkan Bootstrap JS CDN di sebelum `</body>` penutup:
+
+    ```html
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    ```
 
 ## Contoh Penggunaan
 
